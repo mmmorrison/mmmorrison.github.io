@@ -1,7 +1,7 @@
 body{
   margin:0;
   padding:0;
-  color:#666;
+  color: black;
   background:#3d0101;
   font-family:'Raleway', sans-serif;
   font-size:20px;
@@ -132,6 +132,7 @@ main header .intro-text{
 }
 main header .intro-text .skills{
   font-size:1.15em;
+  color: black;
 }
 main section{
   background:#FFF8D3;
@@ -195,7 +196,7 @@ footer{
   margin-bottom:20px;
   width:250px;
 }
-#footer-`above` ul{
+#footer-above ul{
   padding:0;
 }
 #footer-above li{
@@ -258,7 +259,7 @@ hr.star-bright, hr.star-dark{
     text-align:right;
   }
   header hr.star-bright:after, header hr.star-dark:after{
-    right: 270px;
+    right: 265px;
   }
 }
 hr.star-bright:after, hr.star-dark:after{
