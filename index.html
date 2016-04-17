@@ -3,13 +3,75 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="main.css">
 
-    <title>Maria M. Morrison - Full Stack Web Developer</title>
+    <title>Full Stack Web Developer</title>
   </head>
   <body>
-    <header>
-      <img class="col-sm-2" src="logo.png" alt="Maria Morrison: Web Developer">
-    </header>
+
+<header id="banner" class="navbar navbar-default navbar-fixed-top">
+  <div class="container"><a href="#top" class="scrollable"><img src="images/logo.png" alt="logo" title="Full Stack Web Developer"/></a>
+    <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+    <nav id="navbar" role="navigation" class="collapse navbar-collapse">
+      <ul class="nav navbar-right">
+        <li><a href="#top" class="scrollable">About</a></li>
+        <li><a href="#portfolio" class="scrollable">Portfolio</a></li>
+          <!-- <li><a href="#contact" class="scrollable">Contact</a></li> -->
+        <li><a href="#resume" class="scrollable">Resume</a></li>
+      </ul>
+    </nav>
+  </div>
+</header><!-- end header-->
+<a id="top" name="home"></a>
+<main>
+  <header>
+    <div class="intro-text">
+      <p class="text-left">The name is Maria Morrison and I'm an full stack web developer.  I studied at Galvanize which is an immersive coding bootcamp teaching real world skills. I'm also a fan of interesting UI/UX.</p>
+      <hr class="star-dark"/>
+    </div>
+    <!-- <img src="images/thisone.jpg"/> -->
+  </header>
+  <!-- Gallery Grid Section-->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <hr class="star-dark"/>
+    <ul class="grid">
+      <li><a href="https://mytmym.herokuapp.com/"><img src="images/mytmym.png"/></a></li>
+      <li><img src="images/mytmym.png"/></li>
+      <li><img src="images/mytmym.png"/></li>
+      <li><img src="images/mytmym.png"/></li>
+      <li><img src="images/mytmym.png"/></li>
+      <li><img src="images/mytmym.png"/></li>
+    </ul>
+  </section>
+  <!-- Contact Section-->
+  <section id="contact">
+    <h2>Skills</h2>
+    <hr class="star-dark"/>
+    <span class="skills text-center">Web Developer - Front End - Back End - UI/UX</span>
+    <div>
+
+
+    </div>
+  </section>
+  <!-- Scroll to Top Button (Only supposed to be visible on small and small screen sizes)-->
+  <div class="scroll-top"><a href="#top" class="button scrollable"><i class="fa fa-chevron-up"></i></a></div>
+</main>
+<!-- Footer-->
+<footer>
+  <div id="footer-above">
+    <div class='test'>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/mmorrison1978" class="button social"><i class="fa fa-fw fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/mmmorrison" class="button social"><i class="fa fa-fw fa-github"></i></a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer-below">By Maria M. Morrison
+    <script>document.write(new Date().getFullYear())</script>.
+  </div>
+</footer>
   </body>
 </html>
