@@ -19,6 +19,15 @@ a{
 a:hover,a:focus{
   color:#592059;
 }
+.navbar-default .navbar-toggle {
+    border-color: #592059;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #592059;
+}
 #banner .container,
 main header,
 #portfolio .grid,
