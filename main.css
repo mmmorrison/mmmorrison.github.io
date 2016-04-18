@@ -6,10 +6,7 @@ body{
   font-family:'Raleway', sans-serif;
   font-size:20px;
 }
-/*.portPic{
-  height: 590px;
-  width: 1480px;
-}*/
+
 h2,h3{
   color:black;
   font-weight:bold;
@@ -89,6 +86,12 @@ nav{
   background:#FFF8D3;
   box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
   border: 1px solid #722872;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #FFF8D3;
+    color: #722872;
 }
 .navbar-toggle{
   margin-right:0;
@@ -241,7 +244,7 @@ footer{
 }
 .scroll-top a:hover, .scroll-top a:focus{
   color:#722872;
-  background-color:#bbb;
+  background-color:#FFF8D3;
   border-color:#722872;
 }
 @media(min-width:768px){
