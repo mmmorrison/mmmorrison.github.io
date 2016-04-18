@@ -28,6 +28,10 @@ a:hover,a:focus{
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #592059;
 }
+.nav>li a {
+    color: #592059;
+    padding: 10px 20px;
+}
 #banner .container,
 main header,
 #portfolio .grid,
