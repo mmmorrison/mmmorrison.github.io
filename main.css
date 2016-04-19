@@ -21,6 +21,10 @@ body{
   display: inline-block;/
   transition: all .3s ease-in-out;
 }
+.modalPic{
+  height: 30vh;
+  width: 20vw;
+}
 h2,h3{
   color:black;
   font-weight:bold;
