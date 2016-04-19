@@ -14,8 +14,8 @@ body{
   list-style: none;
 }
 .inProgress i{
-  font-size: 4em;
-  color: #592059;
+  font-size: 3em;
+  color: #000000;
   /*border: solid 2px #592059;*/
   border-radius: 50%;
   display: inline-block;/
