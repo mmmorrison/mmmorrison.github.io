@@ -6,11 +6,21 @@ body{
   font-family:'Raleway', sans-serif;
   font-size:20px;
 }
-.usedIcons{
+.usedIcons, .inProgress{
   display:block;
-  text-align:center
+  text-align:center;
 }
-
+.inProgress{
+  list-style: none;
+}
+.inProgress i{
+  font-size: 4em;
+  color: #592059;
+  /*border: solid 2px #592059;*/
+  border-radius: 50%;
+  display: inline-block;/
+  transition: all .3s ease-in-out;
+}
 h2,h3{
   color:black;
   font-weight:bold;
