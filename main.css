@@ -16,11 +16,11 @@ body{
 .inProgress i{
   font-size: 3em;
   color: #000000;
-  /*border: solid 2px #592059;*/
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   display: inline-block;/
   transition: all .3s ease-in-out;
 }
+
 .modalPic{
   height: 30vh;
   width: 20vw;
