@@ -399,3 +399,7 @@ form {
     -webkit-margin-end: 0px;
     border: 1px solid red;
 }
+.contactButton {
+    color: #3D0101;
+    background-color: #F27202;
+}
