@@ -20,12 +20,6 @@ body {
     display: inline-block;
     / transition: all .3s ease-in-out;
 }
-
-/*.modalPic{
-  height: 30vh;
-  width: 20vw;
-}*/
-
 h2, h3 {
     color: black;
     font-weight: bold;
@@ -508,9 +502,13 @@ form {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 .contactButton {
-    color: #3D0101;
+    color: #FFF8D3;
     background-color: #F27202;
+}
+.contactButton:hover, .contactButton:focus {
+    background-color: #3D0101;
+    color: #722872;
 }
