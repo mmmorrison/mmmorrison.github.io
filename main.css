@@ -300,6 +300,102 @@ hr.star-dark:after {
     color: #060606;
     background-color: #FFF8D3;
 }
-3;
-
+#contact>div, footer #footer-above {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+main section#contact>div {
+    margin: 0px auto;
+}
+main section#contact>div>div {
+    width: 80%;
+}
+main section#contact>div>div p {
+    margin: 60px auto 0;
+    max-width: 700px;
+}
+@media(min-width:1023px) {
+    main section#contact>div>div {
+        max-width: 38%;
+    }
+    main section#contact>div>div p {
+        margin-top: 35px;
+    }
+}
+form {
+    width: 80%;
+}
+@media(min-width:1023px) {
+    form {
+        width: 40%;
+        margin-left: 20px;
+    }
+    form .row:first-child .form-item {
+        border-top: 1px solid #fff;
+    }
+}
+.form-item {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+.form-item input, .form-item textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+    width: 100%;
+}
+.form-item input:focus, .form-item textarea:focus {
+    outline: 0
+}
+.form-item label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease, opacity .3s ease;
+    transition: top .3s ease, opacity .3s ease;
+}
+.form-item-filled label {
+    top: 0;
+    opacity: 1;
+    color: #aaa;
+}
+.form-item-focused label {
+    color: #722872;
+}
+#contact p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    border: 1px solid red;
 }
