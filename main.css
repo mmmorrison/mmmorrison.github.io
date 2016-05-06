@@ -10,6 +10,9 @@ body {
     display: block;
     text-align: center;
 }
+li .usedIcons{
+  /*color: #F27202;*/
+}
 .inProgress {
     list-style: none;
 }
@@ -352,7 +355,8 @@ hr.star-dark:after {
   transition: all 0.25s ease-in-out;
 }
 .caption-style-4 .blur {
-  background-color: rgba(0, 0, 0, 0.65);
+  /*background-color: rgba(0, 0, 0, 0.65);*/
+  background-color: black;
   height: 300px;
   width: 420px;
   z-index: 5;
