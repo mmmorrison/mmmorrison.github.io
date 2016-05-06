@@ -324,12 +324,11 @@ hr.star-dark:after {
   opacity: 1;
 }
 .caption-style-4 li:hover img {
-  opacity: 1;
-  transform: scale(1.15, 1.15);
-  -webkit-transform: scale(1.15, 1.15);
-  -moz-transform: scale(1.15, 1.15);
-  -ms-transform: scale(1.15, 1.15);
-  -o-transform: scale(1.15, 1.15);
+  transition: all 1s ease;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  transition-delay: initial;
 }
 .caption-style-4 img {
   margin: 0px;
@@ -355,8 +354,8 @@ hr.star-dark:after {
   transition: all 0.25s ease-in-out;
 }
 .caption-style-4 .blur {
-  /*background-color: rgba(0, 0, 0, 0.65);*/
-  background-color: black;
+  background-color: rgba(0, 0, 0, .90);
+  /*background-color: black;*/
   height: 300px;
   width: 420px;
   z-index: 5;
