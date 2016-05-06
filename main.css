@@ -16,9 +16,8 @@ body {
 .inProgress i {
     font-size: 3em;
     color: #000000;
-    /*border-radius: 50%;*/
     display: inline-block;
-    / transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 h2, h3 {
     color: black;
