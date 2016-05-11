@@ -6,4 +6,4 @@
 - Chess Game: https://meteorchess.herokuapp.com/
 - Mobile App Landing Page: http://mmmorrison.github.io/landing1
 - Omnifood: http://mmmorrison.github.io/omnifood/
-- MeanTeam: http://mmmorrison.github.io/shoppingCart
+- Mean Tea: http://mmmorrison.github.io/shoppingCart
